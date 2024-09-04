@@ -26,7 +26,7 @@ this.displayCard()
 
 deleteCard() {
 
-   
+
 }
 displayCard() {
 cards.innerHTML = ''
@@ -49,7 +49,11 @@ if(city.current.condition.text == 'Patchy light rain in area with thunder') {
    cond = 'Дождик с грозой'
 } else if (city.current.condition.text == 'Clear') {
    cond = 'Ясно'
-} else {
+} 
+else if (city.current.condition.text == 'Patchy rain nearby') {
+   cond = 'Небольшой дождь'
+}
+else {
    cond = city.current.condition.text
 }
 cardTemp.textContent = `${city.current.temp_c} градусов, ${cond}`;
