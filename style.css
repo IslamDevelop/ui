@@ -1,0 +1,30 @@
+body {
+    background-image: url(images/1712430113_bogatyr-club-l0cx-p-kartinka-oblaka-v-nebe-56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+    background-color: #d5dcf3;
+    border-radius: 15px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    justify-content: center;
+    background-position-y: 20px;
+
+}
