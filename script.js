@@ -24,7 +24,7 @@ if(input.value == 'Грозный' || input.value == 'грозный') {
     namecity = 'Grozny'
 }
 
-let url = `http://api.weatherapi.com/v1/current.json?key=a6b33c53708048e0b6a175550243008&q=${namecity}`
+let url = `https://api.weatherapi.com/v1/current.json?key=a6b33c53708048e0b6a175550243008&q=${namecity}`
 
     
     temp(url)    
